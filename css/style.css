@@ -29,24 +29,26 @@ body {
 
 .title {
   margin-bottom: 31px;
-  font-weight: 700;
-  font-size: 34px;
   line-height: 43px;
   color: #FFFFFF;
 }
 
 form {
-  width: 409px;
   display: flex;
+  justify-content: space-between;
   background: #FFFFFF;
+  max-width: 460px;
   height: 41px;
   border-radius: 10px;
   font-family: 'Roboto', sans-serif;
 }
 
 input {
-  padding: 9px 63px 9px 32px;
+  flex-grow: 1;
+  padding: 15px;
   line-height: 1;
+  font-size: 20px;
+  color: #000;
 }
 
 ::placeholder {
@@ -56,7 +58,11 @@ input {
 
 button {
   line-height: 1;
-  width: 130px;
+  width: 145px;
+  height: 41px;
+  
+  font-weight: 700;
+  font-size: 34px;
   color: #FFFFFF;
   background: linear-gradient(99.74deg, rgba(35, 68, 36, 0.2) 19.27%, rgba(4, 96, 8, 0) 88.3%), #35A35A;
   border-radius: 0px 10px 10px 0px;
