@@ -29,8 +29,10 @@ body {
 
 .title {
   margin-bottom: 31px;
+  font-size: 28px;
   line-height: 43px;
   color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
 }
 
 form {
@@ -62,7 +64,7 @@ button {
   height: 41px;
   
   font-weight: 700;
-  font-size: 34px;
+  font-size: 20px;
   color: #FFFFFF;
   background: linear-gradient(99.74deg, rgba(35, 68, 36, 0.2) 19.27%, rgba(4, 96, 8, 0) 88.3%), #35A35A;
   border-radius: 0px 10px 10px 0px;
